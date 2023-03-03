@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float c;
+    printf("Enter the temperature in celsius \n");
+    scanf("%f",&c);
+    printf("In fehrenit %.2f",(c*9/5) +32);
+    
+    return 0;
+}
